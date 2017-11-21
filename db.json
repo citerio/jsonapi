@@ -5,7 +5,7 @@
       "drop": "drop table if exists FAC1000"
     }, 
     {
-      "create": "CREATE TABLE IF NOT EXISTS FAC1001(pednum VARCHAR(50), pedlin INTEGER, codart VARCHAR(50), descar VARCHAR(100), coduni VARCHAR(50), pedcan INTEGER, pedpru INTEGER, pedprt INTEGER, fechcr DATETIME, fechcl DATETIME, geopcr FLOAT, geopel FLOAT, pedfas INTEGER, pedsta INTEGER, pederr VARCHAR(255), codmot VARCHAR(3), PRIMARY KEY (pednum, pedlin), FOREIGN KEY(pednum) REFERENCES FAC1000(pednum))", 
+      "create": "CREATE TABLE IF NOT EXISTS FAC1001(pednum VARCHAR(50), pedlin INTEGER, codart VARCHAR(50), descar VARCHAR(100), coduni VARCHAR(50), pedcan INTEGER, pedpru INTEGER, pedprt INTEGER, fechcr DATETIME, fechcl DATETIME, geopcr FLOAT, geopel FLOAT, pedfas INTEGER, pedsta INTEGER, pederr VARCHAR(255), codmot VARCHAR(3), succom VARCHAR(255), PRIMARY KEY (pednum, pedlin), FOREIGN KEY(pednum) REFERENCES FAC1000(pednum))", 
       "drop": "drop table if exists FAC1001"
     }, 
     {
