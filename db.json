@@ -11,6 +11,10 @@
     {
       "create": "CREATE TABLE IF NOT EXISTS PAR1007(ultimo INTEGER, serie VARCHAR(50))", 
       "drop": "drop table if exists PAR1007"
+    },
+    {
+      "create": "CREATE TABLE IF NOT EXISTS FOT1000(fotnum INTEGER, codcli VARCHAR(50), destino VARCHAR(255))", 
+      "drop": "drop table if exists FOT1000"
     }
   ], 
   "data": [
