@@ -22,7 +22,7 @@
       "query": "INSERT INTO PAR1007(ultimo, serie)", 
       "values": [
         {
-          "serie": "SERRR2", 
+          "serie": "A01", 
           "ultimo": 0
         }
       ], 
